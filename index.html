@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="Limo is a valid html5 CSS3 One Page Template and integrated with bootstrap." >
-	<meta name="keywords" content="CodexCoder,HTML5,CSS3,bootstrap,JavaScript,One Page Template">
+	<meta name="keywords" content="
+	CodexCoder,HTML5,CSS3,bootstrap,JavaScript,One Page Template">
 	<meta name="author" content="CodexCoder">
 
 	<title>Blackshields Home Improvements</title>
@@ -11,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/overrides.css">
 	
 
 	<script src="js/jquery-1.9.1.min.js"></script>
@@ -19,17 +21,13 @@
 	<script src="js/custom.js"></script>
 
 	<SCRIPT LANGUAGE=JAVASCRIPT TYPE="TEXT/JAVASCRIPT"> 
-
-
-	if   (document.referrer = "http://formspree.io") {
-		alert('Form submitted - thanks'); 	
-	}
-      
-//-- Stop hiding script --> 
-</SCRIPT> 
+		if   (document.referrer === "http://formspree.io") {
+			alert('Your message has been sent. Thanks'); 	
+		}
+	</SCRIPT> 
 	
 </head>
-<body>
+<body onload="currentYear()">
 	<header id="header">
 		<section id="headnev" class="navbar topnavbar" >		
 			<div class="container">
@@ -857,6 +855,7 @@
 							</div>
 							<input type="hidden" name="_next" value="http://wyver-solutions.github.io/blackshields" />
 							<input type="hidden" name="_subject" value="[Website message] " />
+							<input type="text" name="_gotcha" style="display:none" />
 							<button type="submit" value="Send" class="btn btn-default">Submit</button>
 						</form>
 
@@ -978,10 +977,20 @@
 		</div> <!-- /.container -->
 
 		<div class="clear-bottom copyright">
-			<p>&copy; Copyright 2014, All Rights Reserved. Designed and Developed by <a href="http://codexcoder.com">CodexCoder</a></p>
+			<p>&copy; Blackshields Home Improvements <span id="year"></span>. All rights reserved.</p>
+			<p>Design based on a template by <a href="http://codexcoder.com" target="_blank">CodexCoder</a> and site build by <a href="http://www.wyversolutions.co.uk" target="_blank">Wyver Solutions Ltd</a>
 		</div> <!-- /.clear-bottom /.copyright -->
 
 	</footer> <!-- /.container-full -->
 </section> <!-- /.footer -->
+
+<script>
+function currentYear() {
+    var d = new Date();
+    var n = d.getFullYear();
+    document.getElementById("year").innerHTML = n;
+}
+</script>
+
 </body>
 </html>
