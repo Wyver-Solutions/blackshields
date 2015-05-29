@@ -9,6 +9,45 @@ div.copyright {
     line-height: 20px;
 }
 
-.clearboth {
-    clear:both;
+#service .col-xs-4 div {
+    min-height: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 20px;
+
+    -webkit-box-shadow: 0 0 1px 1px rgba(165,165,165,.2);
+    box-shadow: 0 0 1px 1px rgba(165,165,165,.2);
+    margin: 20px 0px;
+    -webkit-transition-duration: 250ms;
+    -moz-transition-duration: 250ms;
+    -o-transition-duration: 250ms;
+    -ms-transition-duration: 250ms;
+    transition-duration: 250ms;
+}
+
+#service .col-xs-4 div:hover {
+    -webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
+    box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
+    color: black;
+
+    -webkit-transform: scale(1.02,1.02);
+    -moz-transform: scale(1.02,1.02);
+    -o-transform: scale(1.02,1.02);
+    -ms-transform: scale(1.02,1.02);
+    transform: scale(1.02,1.02);
+
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+
+    -webkit-transition-duration: 250ms;
+    -moz-transition-duration: 250ms;
+    -o-transition-duration: 250ms;
+    -ms-transition-duration: 250ms;
+    transition-duration: 250ms;
+    position: relative;
+    z-index: 99;
+    cursor: pointer;
 }

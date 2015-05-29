@@ -69,6 +69,8 @@ $( "#contact-form" ).submit(function( event ) {
     closeTime: 5000,
     onClose: function () {
       return true;
+
+      // Need to add a flag to check - see: http://stackoverflow.com/questions/7610871/how-to-trigger-an-event-after-using-event-preventdefault
     }
   })
   
