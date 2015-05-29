@@ -63,7 +63,7 @@ $('a.team').click(function() {
 // Script for alert box
 
 $( "#contact-form" ).submit(function( event ) {
-  alert( "Handler for .submit() called." );
+  //alert( "Handler for .submit() called." );
   event.preventDefault();
 });
 
