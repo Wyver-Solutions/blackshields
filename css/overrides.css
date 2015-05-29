@@ -8,3 +8,7 @@ div.copyright {
 .copyright p {
     line-height: 20px;
 }
+
+.clearboth {
+    clear:both;
+}
