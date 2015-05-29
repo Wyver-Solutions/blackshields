@@ -60,6 +60,14 @@ $('a.team').click(function() {
       }
   });
 
+// Script for alert box
+
+$('button').on('click', function () {
+  $.alert('Thank you for your message. We will get back to you as soon as possible', {
+    // Options
+});
+});
+
 });
 
 function scrollingfn() {
@@ -84,11 +92,5 @@ $(function(){
         $('#Grid').mixitup();
       });
 
-// Script for alert box
 
-$('button').on('click', function () {
-  $.alert('Message here', {
-    // Options
-});
-});
 
