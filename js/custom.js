@@ -44,8 +44,8 @@ $(document).ready(function() {
     return false;
   });
 
-$('a.testimonials').click(function() {
-    $('html, body').animate({ scrollTop:$('#testimonials').offset().top - '60'}, 1000,
+$('a.testimonial').click(function() {
+    $('html, body').animate({ scrollTop:$('#testimonial').offset().top - '60'}, 1000,
       function() {
         scrollingfn();
       });
