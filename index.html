@@ -16,17 +16,13 @@
 	
 
 	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/alert-plugin/alert.js"></script>
+
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.mixitup.min.js"></script>
 	<script src="js/custom.js"></script>
 
-	<SCRIPT LANGUAGE=JAVASCRIPT TYPE="TEXT/JAVASCRIPT"> 
-	alert('Referrer='+document.referrer);
-		if   (document.referrer === "http://formspree.io") {
-			
-			//alert('Your message has been sent. Thanks'); 	
-		}
-	</SCRIPT> 
+	
 	
 </head>
 <body onload="currentYear()">
@@ -858,7 +854,7 @@
 							<input type="hidden" name="_next" value="http://wyver-solutions.github.io/blackshields" />
 							<input type="hidden" name="_subject" value="[Website message] " />
 							<input type="text" name="_gotcha" style="display:none" />
-							<button type="submit" value="Send" class="btn btn-default">Submit</button>
+							<button id="contact" type="submit" value="Send" class="btn btn-default">Submit</button>
 						</form>
 
 					</div> <!-- /.col-md-6 -->

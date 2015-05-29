@@ -83,3 +83,12 @@ function scrollingfn() {
 $(function(){
         $('#Grid').mixitup();
       });
+
+// Script for alert box
+
+$('button').on('click', function () {
+  $.alert('Message here', {
+    // Options
+});
+});
+
