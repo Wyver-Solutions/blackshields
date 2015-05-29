@@ -64,16 +64,19 @@ $('a.team').click(function() {
 
 $( "#contact-form" ).submit(function( event ) {
   //alert( "Handler for .submit() called." );
+  $.alert('Thank you for your message. We will get back to you as soon as possible', {
+    closeTime: 5000
+  }
   event.preventDefault();
 });
-
+/*
 $('button').on('click', function () {
   $.alert('Thank you for your message. We will get back to you as soon as possible', {
     closeTime: 5000,
     onClose: function () {
       $( "#contact-form" ).submit();
     }
-
+*/
     
 
 });
