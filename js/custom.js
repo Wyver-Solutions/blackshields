@@ -70,7 +70,7 @@ $( "#contact-form" ).submit(function( event ) {
     onClose: function () {
       return true;
     }
-  }
+  })
   
 });
 /*
