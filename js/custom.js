@@ -43,9 +43,17 @@ $(document).ready(function() {
       });
     return false;
   });
+
+$('a.testimonials').click(function() {
+    $('html, body').animate({ scrollTop:$('#testimonials').offset().top - '60'}, 1000,
+      function() {
+        scrollingfn();
+      });
+    return false;
+  });
   
-$('a.team').click(function() {
-    $('html, body').animate({ scrollTop:$('#team').offset().top - '60'}, 1000,
+$('a.contactus').click(function() {
+    $('html, body').animate({ scrollTop:$('#contactus').offset().top - '60'}, 1000,
       function() {
         scrollingfn();
       });
