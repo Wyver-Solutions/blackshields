@@ -64,13 +64,14 @@ $('a.team').click(function() {
 
 $( "#contact-form" ).submit(function( event ) {
   //alert( "Handler for .submit() called." );
+  event.preventDefault();
   $.alert('Thank you for your message. We will get back to you as soon as possible', {
     closeTime: 5000,
     onClose: function () {
       return: true;
     }
   }
-  //event.preventDefault();
+  
 });
 /*
 $('button').on('click', function () {
