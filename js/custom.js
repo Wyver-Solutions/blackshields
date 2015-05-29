@@ -73,20 +73,10 @@ $( "#contact-form" ).submit(function( event ) {
   })
   
 });
-/*
-$('button').on('click', function () {
-  $.alert('Thank you for your message. We will get back to you as soon as possible', {
-    closeTime: 5000,
-    onClose: function () {
-      $( "#contact-form" ).submit();
-    }
-*/
-    
 
 });
-});
 
-});
+
 
 function scrollingfn() {
   var scrollPosition = $(window).scrollTop();
