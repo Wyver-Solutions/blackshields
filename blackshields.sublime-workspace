@@ -1,0 +1,801 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getCookie"
+			],
+			[
+				"re",
+				"responderID"
+			],
+			[
+				"res",
+				"responderID"
+			],
+			[
+				"form",
+				"formValidation"
+			],
+			[
+				"Crea",
+				"createdAtVar"
+			],
+			[
+				"em",
+				"emailVar"
+			],
+			[
+				"dep",
+				"departmentVar"
+			],
+			[
+				"de",
+				"departmentVar"
+			],
+			[
+				"las",
+				"lastnameVar"
+			],
+			[
+				"fir",
+				"firstnameVar"
+			],
+			[
+				"i",
+				"itemsArray"
+			],
+			[
+				"di",
+				"distinctCategory"
+			],
+			[
+				"Se",
+				"Session"
+			],
+			[
+				"pl",
+				"playerNameVar"
+			],
+			[
+				"Sel",
+				"selectedPlayer"
+			],
+			[
+				"selected",
+				"selectedPlayer"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"select",
+				"selectedPlayer"
+			],
+			[
+				"ban",
+				"background-color"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"play",
+				"playerId"
+			],
+			[
+				"se",
+				"selectedPlayer"
+			],
+			[
+				"p",
+				"PlayersList"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"st",
+				"start"
+			],
+			[
+				"s",
+				"start"
+			],
+			[
+				"end",
+				"enddate"
+			],
+			[
+				"star",
+				"startdate"
+			],
+			[
+				"pr",
+				"processData"
+			],
+			[
+				"head",
+				"headline"
+			],
+			[
+				"spread",
+				"spreadsheetID"
+			],
+			[
+				"pub",
+				"public_spreadsheet_url"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"ex",
+				"extractGroups"
+			],
+			[
+				"list",
+				"listGroups"
+			],
+			[
+				"vis",
+				"visData"
+			],
+			[
+				"vi",
+				"visData"
+			],
+			[
+				"date",
+				"dateFormat"
+			],
+			[
+				"dat",
+				"dateFormat"
+			],
+			[
+				"com",
+				"com"
+			],
+			[
+				"a",
+				"activity"
+			],
+			[
+				"obje",
+				"objectType"
+			],
+			[
+				"testform",
+				"testform"
+			],
+			[
+				"Login",
+				"loginForm"
+			],
+			[
+				"pre",
+				"previousItem"
+			],
+			[
+				"home",
+				"homePageURL"
+			],
+			[
+				"menu",
+				"menuSetup"
+			],
+			[
+				"it",
+				"iterator"
+			],
+			[
+				"dept",
+				"depth1"
+			],
+			[
+				"docs",
+				"docsDir"
+			],
+			[
+				"direc",
+				"directories"
+			],
+			[
+				"direct",
+				"directory"
+			],
+			[
+				"dire",
+				"directories"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"UR",
+				"URLfileName"
+			],
+			[
+				"URL",
+				"URLfileName"
+			],
+			[
+				"hom",
+				"homePageURL"
+			],
+			[
+				"news",
+				"newstring2"
+			],
+			[
+				"new",
+				"newstring1"
+			],
+			[
+				"wiki",
+				"wikiname"
+			],
+			[
+				"strp",
+				"strpos"
+			],
+			[
+				"homepag",
+				"homePageURL"
+			],
+			[
+				"page",
+				"pageTitle"
+			],
+			[
+				"create",
+				"createPageName"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"cate",
+				"categoryTemp"
+			],
+			[
+				"arr",
+				"array	$… = array (…)"
+			],
+			[
+				"categ",
+				"category"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"pa",
+				"pageName"
+			],
+			[
+				"array",
+				"array_chunk"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"str_rep",
+				"str_replace"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"im",
+				"background-image"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"out",
+				"outputFileName"
+			],
+			[
+				"course",
+				"courseFileName"
+			],
+			[
+				"userFil",
+				"userFileName"
+			],
+			[
+				"ar",
+				"arg"
+			],
+			[
+				"__",
+				"__name__"
+			],
+			[
+				"wsl_",
+				"wsl_helloworld"
+			],
+			[
+				"wsl_he",
+				"wsl_helloworld_menu"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"margn",
+				"margin-right"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 15639,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"js",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: p",
+				"Package Control: Discover Packages"
+			],
+			[
+				"",
+				"Code Folding: Fold Tag Attributes"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/markberthelemy/Documents/Code/meteor/questionnaire/lib/setup.js",
+		"/Users/markberthelemy/Documents/Code/meteor/questionnaire/client/templates/listQuestions.html",
+		"/Users/markberthelemy/Documents/Code/meteor/questionnaire/server/methods.js",
+		"/Users/markberthelemy/Documents/Code/meteor/questionnaire/client/templates/responderInfo.html",
+		"/Users/markberthelemy/Documents/Code/meteor/questionnaire/client/templates/answerQuestionsForm.html",
+		"/Users/markberthelemy/Documents/Code/meteor/questionnaire/client/templates/addQuestion.html",
+		"/Users/markberthelemy/Documents/Code/meteor/questionnaire/client/helpers.js",
+		"/Users/markberthelemy/Documents/Code/meteor/questionnaire/questionnaire.html",
+		"/Users/markberthelemy/Documents/Code/content-creation-landscape/index.html",
+		"/Users/markberthelemy/Documents/Code/content-creation-landscape/readme.md",
+		"/Users/markberthelemy/Documents/Code/node-xAPI-bulk-statements/generate.js",
+		"/Users/markberthelemy/Google Drive/Wyver Solutions/Clients/Capita/Axelos/Axelos-CPD-project/xAPI/xAPI definitions/mmtbitbucket/readme.md",
+		"/Users/markberthelemy/Library/Application Support/Sublime Text 2/Packages/User/Markdown (Standard).sublime-settings",
+		"/Users/markberthelemy/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/markberthelemy/Library/Application Support/Sublime Text 2/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/Users/markberthelemy/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/markberthelemy/Library/Application Support/Sublime Text 2/Packages/JSON Reindent/JSONReindent.sublime-settings",
+		"/Users/markberthelemy/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/Users/markberthelemy/Library/Application Support/Sublime Text 2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/markberthelemy/Documents/Wyver Solutions/Clients/Capita/Axelos/Axelos-CPD-project/xAPI/examples/actor.json",
+		"/Users/markberthelemy/Documents/Wyver Solutions/Clients/Capita/Axelos/Axelos-CPD-project/xAPI/examples/joined.json",
+		"/Users/markberthelemy/Documents/Wyver Solutions/Clients/Capita/Axelos/Axelos-CPD-project/xAPI/examples/actor-account.json",
+		"/Users/markberthelemy/Documents/Wyver Solutions/Clients/Capita/Axelos/Axelos-CPD-project/xAPI/examples/authority.json",
+		"/Users/markberthelemy/Documents/Wyver Solutions/Clients/Capita/Axelos/Axelos-CPD-project/xAPI/examples/left.json",
+		"/Users/markberthelemy/Documents/Wyver Solutions/Clients/Capita/Axelos/Axelos-CPD-project/xAPI/examples/experienced.json",
+		"/Users/markberthelemy/Documents/Wyver Solutions/Clients/Capita/Axelos/Axelos-CPD-project/xAPI/examples/cancelled-planned-learning.json",
+		"/Users/markberthelemy/Documents/Wyver Solutions/Clients/Capita/Axelos/Axelos-CPD-project/xAPI/examples/planned.json",
+		"/Users/markberthelemy/temp/xAPIWrapperTester-master/js/config.js",
+		"/Users/markberthelemy/Google Drive/Wyver Solutions/Clients/Capita/Axelos/Axelos-CPD-project/xAPI/outputs-from-mmt/Add-planned.js",
+		"/Users/markberthelemy/Documents/Code/html templates/html5up-prologue/index.html",
+		"/Users/markberthelemy/Documents/Code/html templates/html5up-prologue/js/jquery.scrollzer.min.js",
+		"/Users/markberthelemy/Documents/Code/bourgeal2/css/style.css",
+		"/Users/markberthelemy/Documents/Code/bourgeal2/CNAME",
+		"/Users/markberthelemy/Documents/Code/bourgeal2/index.html",
+		"/Users/markberthelemy/Documents/Code/microblog/run.py",
+		"/Users/markberthelemy/Documents/Code/microblog/db_create.py",
+		"/Users/markberthelemy/Documents/Code/microblog/db_migrate.py",
+		"/Users/markberthelemy/Documents/Code/microblog/db_upgrade.py",
+		"/Users/markberthelemy/Documents/Code/microblog/db_downgrade.py",
+		"/Users/markberthelemy/Documents/Code/microblog/app/templates/index.html",
+		"/Users/markberthelemy/Documents/Code/Peter/python1.py",
+		"/Users/markberthelemy/Documents/Code/Peter",
+		"/Users/markberthelemy/Documents/Code/LearningTechConsultantsNetwork/css/style.css",
+		"/Users/markberthelemy/Documents/Code/LearningTechConsultantsNetwork/index.html",
+		"/Users/markberthelemy/Documents/Code/berthelemy-family/index.html",
+		"/Users/markberthelemy/Documents/Code/jekyll-test-site/_site/index.html",
+		"/Users/markberthelemy/Documents/Code/mb_flowtime.js/examples/Career-planner/index.html",
+		"/Users/markberthelemy/Documents/Code/mb-jekyll-noita/about/index.md",
+		"/Users/markberthelemy/Documents/Code/Javascript-learning/primes.js",
+		"/Users/markberthelemy/Documents/Code/angularjs-tutorial/angular-phonecat/app/index.html",
+		"/Users/markberthelemy/Documents/Code/angularjs-tutorial/angular-phonecat/app/untitled",
+		"/Users/markberthelemy/Documents/Wyver Solutions/Clients/ELN/Database-exports-06052014/orders.csv",
+		"/Users/markberthelemy/Documents/Wyver Solutions/Clients/ELN/Database-exports-06052014/order-comments",
+		"/Users/markberthelemy/Documents/Wyver Solutions/Clients/ELN/Database-exports-06052014/users.csv",
+		"/Users/markberthelemy/temp/belper-church-email-list.csv",
+		"/Users/markberthelemy/Documents/Websites/moodle2/config.php",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/build/readme.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/upgrading.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/about_xerte.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/managing_a_xerte_site.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/installing_xerte.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/creating_learning_content.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/developer_guide.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/ldap.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/index-test.php",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/docDisplay/config.php",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/docs/LDAP.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/docs/bugfixes.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/docs/moodle_integration_readme.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/docs/LTI Documentation.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/docs/integration.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/docDisplay/css/simple-sidebar.css",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/docs/05_about_xerte_online_toolkit.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/docs/01_home.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/docs/10_installing_xerte_online_toolkits.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/index.php",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/docs/25_upgrading.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/docs/home.md",
+		"/Users/markberthelemy/Documents/Websites/xerteonlinetoolkits-fork/documentation/docs/Test table",
+		"/Users/markberthelemy/Documents/Websites/githubWikiDisplay/index.php",
+		"/Users/markberthelemy/Documents/Websites/githubWikiDisplay/TODO.md",
+		"/Users/markberthelemy/Documents/Websites/githubWikiDisplay/config.php",
+		"/Users/markberthelemy/Documents/Websites/githubWikiDisplay/wiki/home.md",
+		"/Users/markberthelemy/Documents/Websites/githubWikiDisplay/sidebar.php",
+		"/Users/markberthelemy/Documents/Websites/githubWikiDisplay/githubWikiDisplay.sublime-project",
+		"/Users/markberthelemy/Documents/Websites/githubWikiDisplay/wiki/markdown 1 file.mdown",
+		"/Users/markberthelemy/temp/Why is it so complicated?",
+		"/Users/markberthelemy/temp/Is Moodle the only answer?",
+		"/Users/markberthelemy/Documents/Wyver Solutions/wordpress_plugins",
+		"/Users/markberthelemy/temp/testGit/test.txt",
+		"/Users/markberthelemy/Documents/Wyver Solutions/Clients/i-to-i/Project/i-to-i Newdle project copy.merlin2",
+		"/Users/markberthelemy/Documents/Wyver Solutions/Clients/NIHR/Xerte/customStyle.css",
+		"/Users/markberthelemy/Google Drive/KPMG_NHS/Virtual Campus/Support/cookies policy 0.2.html",
+		"/Users/markberthelemy/Documents/Code/python/csv_manip/csv_manip.py",
+		"/Users/markberthelemy/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/markberthelemy/Documents/Websites/www.e-i.org/index.html",
+		"/Users/markberthelemy/Documents/Websites/wordpress2/wp-content/plugins/wsl_helloworld/wsl_helloworld.php",
+		"/Users/markberthelemy/Documents/Websites/wordpress2/wp-content/plugins/sb-child-list/sb_child_list.php",
+		"/Users/markberthelemy/Documents/Websites/wyverlearning/wp-config.php",
+		"/Users/markberthelemy/Documents/Websites/DefAc_NMP/help.html",
+		"/Users/markberthelemy/Documents/Websites/DefAc_NMP/documents.html",
+		"/Users/markberthelemy/Documents/Websites/DefAc_NMP/tasks.html",
+		"/Users/markberthelemy/Documents/Websites/DefAc_NMP/team.html",
+		"/Users/markberthelemy/Documents/Websites/DefAc_NMP/lib/colorbox/colorbox.css",
+		"/Users/markberthelemy/Documents/Websites/DefAc_NMP/bootstrap/css/bootstrap-responsive.css",
+		"/Users/markberthelemy/Documents/Websites/DefAc_NMP/header.html",
+		"/Users/markberthelemy/Documents/Websites/DefAc_NMP/menu.html",
+		"/Users/markberthelemy/Documents/Websites/DefAc_NMP/index_old.html",
+		"/Users/markberthelemy/Documents/Websites/DefAc_NMP/index.html",
+		"/Users/markberthelemy/Documents/Websites/DefAc_NMP/bootstrap/css/bootstrap.css",
+		"/Users/markberthelemy/Documents/Websites/DefAc_NMP/css/css_overrides.css",
+		"/Users/markberthelemy/Documents/Websites/DefAc_NMP/head.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/markberthelemy/Documents/Code/microblog/app",
+			"/Users/markberthelemy/temp/24tips wp",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"*/\n",
+			"div.copyright {\n    padding-top: 50px;\n    height: 100px;\n}",
+			"services",
+			"_",
+			"form",
+			"service",
+			"data",
+			"cons",
+			"console",
+			"moment",
+			"mom",
+			"      //",
+			"response",
+			"assertion",
+			"extension",
+			"\",\n",
+			"extension",
+			"\",\n",
+			"rating",
+			"draft",
+			"evidence",
+			"/activitytypes/",
+			"extensions",
+			"categories",
+			"category",
+			"date",
+			"evaluat",
+			"evidence",
+			"mbox",
+			"contextA",
+			"}\n",
+			"activitytype",
+			"/type/",
+			"/scheme/",
+			"scheme",
+			"url",
+			"autho",
+			"groupingtype",
+			"type",
+			"                        ",
+			"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ",
+			"active",
+			"adapt",
+			"active",
+			"scroll",
+			"-->\n",
+			"map",
+			"alt=\"\"",
+			"the-house",
+			"house-fr",
+			"settee",
+			"front",
+			"see",
+			"kitch",
+			"clear",
+			"TestForm",
+			"overf",
+			"navbar",
+			"<td></td>",
+			"id=\"tabs",
+			"      <",
+			"thumb",
+			"1",
+			"eval(",
+			"eval",
+			" ",
+			" >",
+			"style=\"(.*?)\"",
+			"homePage",
+			"homePageURL",
+			"wiki",
+			"homeP",
+			"|",
+			"        ",
+			"Managing a Xerte site \n		Authentication \n		Managing accounts \n		Roles and permissions \n		Security \n		Performance \n		Backup \n		Site appearance \n        ",
+			"Managing a Xerte site \n		Authentication \n		Managing accounts \n		Roles and permissions \n		Security \n		Performance \n		Backup \n		Site appearance \n		",
+			"homepage",
+			"homePageURL",
+			"home",
+			"pageT",
+			";\n",
+			"•   ",
+			"arg",
+			" width=\"...\"",
+			" width=\"298\"",
+			" width=\"145\"",
+			"</ul>",
+			"</li>",
+			"<a href=\"http://localhost/DefAc_NMP/index.html#\" style=\"margin: 0px; padding: 5px; color: rgb(102, 102, 102); text-decoration: none; border: 1px solid rgb(204, 204, 204); font-family: arial, verdana, tahoma; font-size: 11px; display: inline-block; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; -webkit-transition: all 0.5s;\"></a>",
+			"<li style=\"margin: 0px; padding: 20px 5px 0px; float: left; text-align: center; list-style-type: none; position: relative; -webkit-transition: all 0.5s;\">",
+			"<ul style=\"margin: 0px 0px 0px 25px; padding: 20px 0px 0px; position: relative; -webkit-transition: all 0.5s; color: rgb(51, 51, 51); font-family: 'helvetica neue', helvetica, arial, sans-serif; font-size: 14px; line-height: 20px; text-align: center;\">\n                            <li style=\"margin: 0px; padding: 20px 5px 0px; float: left; text-align: center; list-style-type: none; position: relative; -webkit-transition: all 0.5s;\">\n                                <a href=\"http://localhost/DefAc_NMP/index.html#\" style=\"margin: 0px; padding: 5px; color: rgb(0, 0, 0); text-decoration: none; outline: 0px; border: 1px solid rgb(148, 160, 180); font-family: arial, verdana, tahoma; font-size: 11px; display: inline-block; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; -webkit-transition: all 0.5s; background-color: rgb(200, 228, 248);\"></a>",
+			"<br>",
+			" class=\"name\" style=\"margin: 0px 0px 10px; padding: 0px;\"",
+			" style=\"margin: 0px; padding: 0px;\"",
+			" class=\"role\" style=\"margin: 0px 0px 10px; padding: 0px;\"",
+			"<a href=\"http://localhost/DefAc_NMP/index.html#\" style=\"margin: 0px; padding: 5px; color: rgb(0, 0, 0); text-decoration: none; outline: 0px; border: 1px solid rgb(148, 160, 180); font-family: arial, verdana, tahoma; font-size: 11px; display: inline-block; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; -webkit-transition: all 0.5s; background-color: rgb(200, 228, 248); line-height: 20px; text-align: center;\"></a>",
+			" width=\"14%\"",
+			"  ",
+			"width=\"14%\"",
+			"<a href=\"http://localhost/DefAc_NMP/index.html#\" style=\"margin: 0px; padding: 5px; color: rgb(0, 0, 0); text-decoration: none; outline: 0px; border: 1px solid rgb(148, 160, 180); font-family: arial, verdana, tahoma; font-size: 11px; display: inline-block; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; -webkit-transition: all 0.5s; background-color: rgb(200, 228, 248); line-height: 20px; text-align: center;\"></a>",
+			" ;",
+			"span1",
+			"span8",
+			"images",
+			">\n",
+			"(images",
+			"class=\"fancybox fancybox.ajax\"",
+			"position",
+			"height",
+			"absolute",
+			"position"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"/activitytype/",
+			"/activitytypes/",
+			"/schema/",
+			"",
+			"<td>&nbsp;</td>",
+			"class=\"tabs",
+			"",
+			">",
+			"",
+			"| ldap_id | ldap_knownname | ldap_host | ldap_port | ldap_username                      | ldap_password | ldap_basedn                          | ldap_filter | ldap_filter_attr |",
+			"# ",
+			"",
+			"<br />",
+			"",
+			"(./images"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 15639,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true
+}
