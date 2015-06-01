@@ -1,3 +1,18 @@
+$('ul#headernavigation > li > a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+    || location.hostname == this.hostname) {
+
+    var target = $(this.hash);
+  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+  if (target.length) {
+    $('html,body').animate({
+      scrollTop: target.offset().top - '60'
+    }, 1000);
+    return false;
+  }
+}
+});  
+
 $(document).ready(function() {
 
   $(window).bind('scroll', function(e) {
@@ -103,6 +118,22 @@ function scrollingfn() {
       }
     });
 
+    $('.nav').on('click', 'li:has(a[href^="#"])', function (e) {
+      $('.nav li').removeClass('active');
+      $(this).addClass('active');
+    });
+
+$(document).ready(function() {
+  $('.navbar-nav').onePageNav({
+    currentClass: 'current',
+    changeHash: false,
+    scrollSpeed: 750,
+    scrollOffset: 60,
+    scrollThreshold: 0.5,
+    filter: '',
+    easing: 'swing'
+  });  
+});
 
 
 // Script for Mixitup Plugin

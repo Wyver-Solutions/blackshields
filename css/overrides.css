@@ -1,4 +1,23 @@
-# Override styles
+/* Override styles */
+
+#header .navbar-header a {
+    font-size: 2.5em;
+    padding:0;
+    margin-top:20px;
+    line-height: 25px;
+}
+
+#header .navbar-fixed-top  .navbar-header a {
+    font-size: 1.6em;
+    line-height: 15px;
+    margin-top: 5px;
+}
+
+.tag {
+    font-size: .6em;
+    padding: 0;
+    margin:0;
+}
 
 div.copyright {
     
@@ -51,3 +70,44 @@ div.copyright {
     z-index: 99;
     cursor: pointer;
 }
+
+.heading {
+    padding-bottom: 30px;
+    border-top: 1px solid #f7f8f8;
+    width: 100%;
+}
+
+.goodtoknow ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border: 1px solid #ddd;
+    /*font-size: 1.1em; */
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
+    box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
+    color: black;
+
+    
+}
+
+.goodtoknow ul li {
+    padding: 7px 0 7px 30px;
+    border-bottom: 1px solid #ddd;
+    margin: 0 5px 0 5px;
+    text-align: center;
+}
+
+@media screen and (max-width:800px)
+{
+    #service .col-xs-4 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px)
+{   
+        #service .col-xs-4 {
+            width: 100%;
+        }
+    }
