@@ -4,6 +4,10 @@
 
 /* Override styles */
 
+.container-full {
+    background-color: #f0e9cc;
+}
+
 #header .navbar-header a {
     font-family: "Philosopher";
     font-size: 2.5em;
