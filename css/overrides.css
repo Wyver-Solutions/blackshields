@@ -8,6 +8,10 @@
     background-color: #f0e9cc;
 }
 
+#header .navbar {
+    background-color: #73806e;
+}
+
 #header .navbar-header a {
     font-family: "Philosopher";
     font-size: 2.5em;
