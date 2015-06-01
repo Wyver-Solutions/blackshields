@@ -4,7 +4,7 @@
 
 /* Override styles */
 
-.container-full {
+#service .container-full, #portfolio .container-full, #testimonial .container-full, #aboutus .container-full {
     background-color: #f0e9cc;
 }
 
