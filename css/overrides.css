@@ -32,6 +32,10 @@
     margin:0;
 }
 
+#testimonial .testsection, #service .servicediv {
+    background-color:#f0e9cc;
+}
+
 #footer .container-full {
  background-color: #73806e;   
 }
