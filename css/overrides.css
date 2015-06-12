@@ -49,7 +49,7 @@ div.copyright {
     line-height: 20px;
 }
 
-#service .col-xs-4 div {
+#service .col-xs-6 div {
     min-height: 350px;
     border-radius: 15px;
     overflow: hidden;
@@ -65,7 +65,7 @@ div.copyright {
     transition-duration: 250ms;
 }
 
-#service .col-xs-4 div:hover {
+#service .col-xs-6 div:hover {
     -webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
     box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
     color: black;
