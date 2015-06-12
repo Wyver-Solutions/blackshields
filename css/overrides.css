@@ -4,8 +4,10 @@
 
 /* Override styles */
 
-#service .container-full, #portfolio .container-full, #testimonial .container-full, #aboutus .container-full {
+#slider .container-full, #service .container-full, #portfolio .container-full, #testimonial .container-full, #aboutus .container-full {
     background-color: #f0e9cc;
+    height: 100%;
+    max-height: none;
 }
 
 #header .navbar {
@@ -98,6 +100,30 @@ div.copyright {
     width: 100%;
 }
 
+#slider .container-full {
+    margin:0;
+    padding:0;  
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:contain;
+    height: 100vh;
+    width: 100%;
+    position:relative;
+    bottom:0px;
+    top:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    max-height:100%;
+    max-width:100%;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bgs/bg.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bgs/bg.jpg', sizingMethod='scale')";
+font-family:Trebuchet MS, Arial, 'Helvetica', sans-serif;
+font-size:1em;
+}
 #slider .radius {
     border-radius: 15px;
     background-color: rgba(200, 200, 200, 0.75);
