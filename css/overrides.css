@@ -4,14 +4,22 @@
 
 /* Override styles */
 
-#slider .container-full, #service .container-full, #portfolio .container-full, #testimonial .container-full, #aboutus .container-full {
+#slider .container-full, #service .container-full, #portfolio .container-full, #testimonial .container-full, #aboutus .container-full, #contactus .container-full {
     background-color: #f0e9cc;
-    height: 100%;
+}
+
+#slider .container-full {
+    background-size: cover;
+    min-height: 100vh;
     max-height: none;
 }
 
 #header .navbar {
     background-color: #73806e;
+}
+
+#header .nav {
+    margin-top: 20px;
 }
 
 #header .navbar-header a {
@@ -20,6 +28,20 @@
     padding:0;
     margin-top:25px;
     line-height: 25px;
+}
+
+#header .navbar-collapse p.call-me {
+    position: relative;
+    
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    margin-right: 15px;
+
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+
 }
 
 #header .navbar-fixed-top  .navbar-header a {
@@ -100,63 +122,43 @@ div.copyright {
     width: 100%;
 }
 
-#slider .container-full {
-    margin:0;
-    padding:0;  
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    background-size:contain;
-    height: 100vh;
-    width: 100%;
-    position:relative;
-    bottom:0px;
-    top:0px;
-    margin-top:0px;
-    margin-bottom:0px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: 100% 100%;
-    max-height:100%;
-    max-width:100%;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bgs/bg.jpg', sizingMethod='scale');
--ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bgs/bg.jpg', sizingMethod='scale')";
-font-family:Trebuchet MS, Arial, 'Helvetica', sans-serif;
-font-size:1em;
-}
+
 #slider .radius {
     border-radius: 15px;
-    background-color: rgba(200, 200, 200, 0.75);
+    background-color: rgba(115, 128, 110, 0.75);
 }
 
 #slider .slide-element p {
     font-size: 1.5em;
     padding: 12px;
-
-
-
+    color: #ddd;
 }
 
+#slider .slide-element ul {
+    color: #ddd;
+}
 
+.goodtoknow {
+    height: 100%;
+}
 
 .goodtoknow ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    background-color: rgba(200, 200, 200, 0.5);
-    border: 1px solid #ddd;
+    background-color: rgba(115, 128, 110, 0.75);
+
     /*font-size: 1.1em; */
     border-radius: 15px;
     -webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
     box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
-    color: black;
 
-    
 }
+
 
 .goodtoknow ul li {
     padding: 7px 0 7px 30px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgba(115, 128, 110, 0.9);
     margin: 0 5px 0 5px;
     text-align: center;
     font-size: 1.5em;
@@ -164,15 +166,13 @@ font-size:1em;
 
 @media screen and (max-width:1200px)
 {
-    #slider .radius {
-        border-radius: 15px;
-        background-color: rgba(200, 200, 200, .5);
-    }
+
+    
 
 
     #slider .container-full {
  
-        max-height: none;
+        height: 100vh;
     }
         #slider .col-xs-5 {
         width: 100%;
@@ -180,7 +180,21 @@ font-size:1em;
     }
 
     #slider .goodtoknow {
-        margin-top: 170px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:992px)
+{
+    #contactus .col-md-6
+    {
+        width: 100%;
+    }
+    #contactus .col-md-3{
+        width: 100%;
+        float: none;
+        margin: 20px 0px;
+
     }
 }
 
@@ -189,12 +203,6 @@ font-size:1em;
     #service .col-xs-6 {
         width: 100%;
     }
-    #slider .goodtoknow {
-        margin-top: 20px;
-    }
-
-    
-
 
 }
 
