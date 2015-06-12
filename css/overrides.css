@@ -56,6 +56,11 @@
     margin:0;
 }
 
+#service ul {
+    list-style: circle;
+    margin-left: 15px;
+}
+
 #testimonial .testsection, #service .servicediv {
     background-color:#f0e9cc;
 }
