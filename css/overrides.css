@@ -103,6 +103,26 @@ blockquote p {
     background-size: cover;
 }
 
+#service .col-xs-6 div.bathroom {
+    min-height: 8vw;
+    height: 8vw;
+    background: url("../images/bathroom-cropped.png") no-repeat;
+    background-size: cover;
+}
+
+#service .col-xs-6 div.painting {
+    min-height: 8vw;
+    height: 8vw;
+    background: url("../images/painting-cropped.png") no-repeat;
+    background-size: cover;
+}
+
+#service .col-xs-6 div.wall {
+    min-height: 8vw;
+    height: 8vw;
+    background: url("../images/wall.png") no-repeat;
+    background-size: cover;
+}
 
 
 #testimonial .testsection, #service .servicediv {
@@ -224,6 +244,10 @@ blockquote p {
     min-height: 200px;
 }
 
+#scroller .gototop {
+    background-color: white;
+}
+
 @media screen and (max-width:1200px)
 {
 
@@ -262,7 +286,7 @@ blockquote p {
     }
     #slider .container-full {
         background-image: none;
-        background-color: #f0e9cc;
+        
         max-height: none;
 }
 
