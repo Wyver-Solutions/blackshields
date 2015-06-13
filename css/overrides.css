@@ -102,7 +102,9 @@ blockquote p {
     background-size: cover;
 }
 
-
+#testimonial .testsection, #service .servicediv {
+    background-color: white;
+}
 
 #testimonial .testsection, #service .servicediv {
     background-color:#f0e9cc;
