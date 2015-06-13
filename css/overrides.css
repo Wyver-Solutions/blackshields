@@ -267,13 +267,7 @@ blockquote p {
 
 @media screen and (max-width:992px)
 {
-    #slider .col-xs-5 {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    #slider .goodtoknow {
-        margin-top: 20px;
-    }
+    
 
     #contactus .col-md-6
     {
@@ -284,10 +278,6 @@ blockquote p {
         float: none;
         margin: 20px 0px;
     }
-    #slider .container-full {
-        background-image: none;
-        
-        max-height: none;
 }
 
 @media screen and (max-width:800px)
@@ -295,16 +285,32 @@ blockquote p {
     #service .col-xs-6, #testimonial .col-xs-6 {
         width: 100%;
     }
+    #slider .col-xs-5 {
+    margin: 0 5px 0 5px;
+    }
+    #slider .col-xs-2 {
+        display: none;
+    }
 
 
 }
 
 @media screen and (max-width:610px)
 {   
-        #service .col-xs-6 {
-            width: 100%;
-        }
+    #slider .col-xs-5 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #slider .goodtoknow {
+        margin-top: 20px;
+    }
+    #service .col-xs-6 {
+        width: 100%;
+    }
+    #slider .container-full {
+        background-image: none;
         
+        max-height: none;
     }
 
-    }
+}
