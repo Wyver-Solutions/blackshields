@@ -41,6 +41,7 @@ blockquote p {
 
 #slider .container-full, #service .container-full, #portfolio .container-full, #testimonial .container-full, #aboutus .container-full, #contactus .container-full {
     background-color: white;
+    border: none;
 }
 
 #slider .container-full {
@@ -106,6 +107,10 @@ blockquote p {
 
 #testimonial .testsection, #service .servicediv {
     background-color: white;
+}
+
+#testimonial .heading {
+    border: none;
 }
 
 #footer .container-full {
