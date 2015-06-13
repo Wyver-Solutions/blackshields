@@ -4,6 +4,41 @@
 
 /* Override styles */
 
+body {
+    font-size: 16px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  min-height: 130px;
+
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.2em;
+  margin-left: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
 #slider .container-full, #service .container-full, #portfolio .container-full, #testimonial .container-full, #aboutus .container-full, #contactus .container-full {
     background-color: #f0e9cc;
 }
@@ -12,7 +47,11 @@
     background-size: cover;
     min-height: 100vh;
     max-height: none;
+    background-image: url(../images/kitchen.jpg);
 }
+
+
+
 
 #header .navbar {
     background-color: #73806e;
@@ -30,19 +69,9 @@
     line-height: 25px;
 }
 
-#header .navbar-collapse p.call-me {
-    position: relative;
-    
-    text-align: right;
-    padding: 0;
-    margin: 0;
-    margin-right: 15px;
 
-    font-weight: bold;
-    font-size: 1.5em;
-    color: white;
 
-}
+
 
 #header .navbar-fixed-top  .navbar-header a {
     font-size: 1.6em;
@@ -56,10 +85,19 @@
     margin:0;
 }
 
-#service ul {
+#service ul.simple-bullets {
     list-style: circle;
     margin-left: 15px;
 }
+
+#service .col-xs-6 div.garden {
+    min-height: 8vw;
+    height: 8vw;
+    background: url("../images/garden-cropped.png") no-repeat;
+    background-size: cover;
+}
+
+
 
 #testimonial .testsection, #service .servicediv {
     background-color:#f0e9cc;
@@ -69,9 +107,8 @@
  background-color: #73806e;   
 }
 
-div.copyright {
-    
-    
+#contactus p.phone {
+    font-size: 1.9em;
 }
 
 .copyright p {
@@ -84,8 +121,8 @@ div.copyright {
     overflow: hidden;
     padding: 20px;
 
-    -webkit-box-shadow: 0 0 1px 1px rgba(165,165,165,.2);
-    box-shadow: 0 0 1px 1px rgba(165,165,165,.2);
+    -webkit-box-shadow: none;
+    box-shadow: none;
     margin: 20px 0px;
     -webkit-transition-duration: 250ms;
     -moz-transition-duration: 250ms;
@@ -95,15 +132,15 @@ div.copyright {
 }
 
 #service .col-xs-6 div:hover {
-    -webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
-    box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: none;
+    box-shadow: none;
     color: black;
 
-    -webkit-transform: scale(1.02,1.02);
-    -moz-transform: scale(1.02,1.02);
-    -o-transform: scale(1.02,1.02);
-    -ms-transform: scale(1.02,1.02);
-    transform: scale(1.02,1.02);
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
 
     -webkit-transition-timing-function: ease-out;
     -moz-transition-timing-function: ease-out;
@@ -118,7 +155,7 @@ div.copyright {
     transition-duration: 250ms;
     position: relative;
     z-index: 99;
-    cursor: pointer;
+    cursor: inherit;
 }
 
 .heading {
@@ -134,7 +171,7 @@ div.copyright {
 }
 
 #slider .slide-element p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 12px;
     color: #ddd;
 }
@@ -144,19 +181,23 @@ div.copyright {
 }
 
 .goodtoknow {
-    height: 100%;
+    
+    background-color: rgba(115, 128, 110, 0.75);
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
+    box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
 }
+
+
 
 .goodtoknow ul {
     padding: 0;
     margin: 0;
+    margin-top: 5px;
     list-style-type: none;
-    background-color: rgba(115, 128, 110, 0.75);
+    
 
     /*font-size: 1.1em; */
-    border-radius: 15px;
-    -webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
-    box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
 
 }
 
@@ -165,8 +206,12 @@ div.copyright {
     padding: 7px 0 7px 30px;
     border-bottom: 1px solid rgba(115, 128, 110, 0.9);
     margin: 0 5px 0 5px;
-    text-align: center;
-    font-size: 1.5em;
+    
+    font-size: 1.2em;
+}
+
+#contactus .gettouch {
+    min-height: 200px;
 }
 
 @media screen and (max-width:1200px)
@@ -177,37 +222,46 @@ div.copyright {
 
     #slider .container-full {
  
-        height: 100vh;
+        
     }
-        #slider .col-xs-5 {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+        
 
-    #slider .goodtoknow {
-        margin-top: 20px;
-    }
+
+
+    
 }
 
 @media screen and (max-width:992px)
 {
+    #slider .col-xs-5 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #slider .goodtoknow {
+        margin-top: 20px;
+    }
+
     #contactus .col-md-6
     {
         width: 100%;
     }
-    #contactus .col-md-3{
+    #contactus .col-md-5{
         width: 100%;
         float: none;
         margin: 20px 0px;
-
     }
+    #slider .container-full {
+        background-image: none;
+        background-color: #f0e9cc;
+        max-height: none;
 }
 
 @media screen and (max-width:800px)
 {
-    #service .col-xs-6 {
+    #service .col-xs-6, #testimonial .col-xs-6 {
         width: 100%;
     }
+
 
 }
 
@@ -216,10 +270,7 @@ div.copyright {
         #service .col-xs-6 {
             width: 100%;
         }
-        #slider .container-full {
-        background-image: none;
-        background-color: #f0e9cc;
-        max-height: none;
+        
     }
 
     }
