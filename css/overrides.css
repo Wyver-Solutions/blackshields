@@ -74,7 +74,9 @@ blockquote p {
     color: #f0e9cc;
 }
 
-
+#header .navbar-nav>li.current>a {
+    color: #f0e9cc;
+}
 
 #header .navbar-fixed-top  .navbar-header a {
     font-size: 1.6em;
