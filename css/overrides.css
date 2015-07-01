@@ -120,7 +120,7 @@ blockquote p {
 #service .col-xs-6 div.wall {
     min-height: 8vw;
     height: 8vw;
-    background: url("../images/wall.png") no-repeat;
+    background: url("../images/hammer-700.png") no-repeat;
     background-size: cover;
 }
 
