@@ -97,29 +97,29 @@ blockquote p {
 }
 
 #service .col-xs-6 div.garden {
-    min-height: 8vw;
-    height: 8vw;
+    height: 10vw;
+    min-height: 150px;
     background: url("../images/garden2-cropped.png") no-repeat;
     background-size: cover;
 }
 
 #service .col-xs-6 div.bathroom {
-    min-height: 8vw;
-    height: 8vw;
+    height: 10vw;
+    min-height: 150px;
     background: url("../images/bathroom-cropped.png") no-repeat;
     background-size: cover;
 }
 
 #service .col-xs-6 div.painting {
-    min-height: 8vw;
-    height: 8vw;
+    height: 10vw;
+    min-height: 150px;
     background: url("../images/fireplace.png") no-repeat;
     background-size: cover;
 }
 
 #service .col-xs-6 div.wall {
-    min-height: 8vw;
-    height: 8vw;
+    height: 10vw;
+    min-height: 150px;
     background: url("../images/hammer-700.png") no-repeat;
     background-size: cover;
 }
