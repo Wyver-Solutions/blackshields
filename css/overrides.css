@@ -99,7 +99,7 @@ blockquote p {
 #service .col-xs-6 div.garden {
     min-height: 8vw;
     height: 8vw;
-    background: url("../images/garden-cropped.png") no-repeat;
+    background: url("../images/garden2-cropped.png") no-repeat;
     background-size: cover;
 }
 
@@ -113,7 +113,7 @@ blockquote p {
 #service .col-xs-6 div.painting {
     min-height: 8vw;
     height: 8vw;
-    background: url("../images/painting-cropped.png") no-repeat;
+    background: url("../images/fireplace.png") no-repeat;
     background-size: cover;
 }
 
